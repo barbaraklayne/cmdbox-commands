@@ -7,6 +7,14 @@
       "description": "",
       "created_at": "2025-08-14T08:08:12+00:00",
       "updated_at": "2025-08-14T08:08:12+00:00"
+    },
+    {
+      "id": 1755160408656,
+      "name": "vertex",
+      "command": "apt update -y &&",
+      "description": "刷流",
+      "created_at": "2025-08-14T16:33:28+08:00",
+      "updated_at": "2025-08-14T16:33:28+08:00"
     }
   ]
 }
