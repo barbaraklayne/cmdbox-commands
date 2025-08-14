@@ -11,10 +11,10 @@
     {
       "id": 1755160408656,
       "name": "vertex",
-      "command": "apt update -y &&",
+      "command": "apt update -y && apt upgrade -y && apt install curl -y && curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && timedatectl set-timezone Asia/Shanghai && mkdir -p /root/vertex && chmod 777 /root/vertex && docker run -d --name vertex --restart unless-stopped --network host -v /root/vertex:/vertex -e TZ=Asia/Shanghai lswl/vertex:stable",
       "description": "刷流",
       "created_at": "2025-08-14T16:33:28+08:00",
-      "updated_at": "2025-08-14T16:33:28+08:00"
+      "updated_at": "2025-08-14T16:36:01+08:00"
     }
   ]
 }
