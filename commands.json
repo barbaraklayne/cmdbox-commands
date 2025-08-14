@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "id": 1755158892627,
+      "name": "snell+ss",
+      "command": "bash <(curl -L -s menu.jinqians.com)",
+      "description": "",
+      "created_at": "2025-08-14T08:08:12+00:00",
+      "updated_at": "2025-08-14T08:08:12+00:00"
+    }
+  ]
+}
